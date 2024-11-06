@@ -10,10 +10,10 @@ from firebase_admin import credentials
 from firebase_admin import db
 from firebase_admin import storage
 
-cred = credentials.Certificate("serviceAccountKey.json")
+cred = credentials.Certificate("FirebaseKey.json")
 firebase_admin.initialize_app(cred,{
-    'databaseURL':"https://faceattendanceivp-default-rtdb.asia-southeast1.firebasedatabase.app/",
-    'storageBucket':"faceattendanceivp.appspot.com"
+    'databaseURL':" ",
+    'storageBucket':" "
 
 })
 
