@@ -1,0 +1,2 @@
+This project aims to design and implement a real-time face recognition attendance system by integrating facial detection, alignment, encoding, and recognition into one cohesive pipeline and maintaining a real-time database in such a way that there would be efficient data handling and secured storage. This system uses libraries, including OpenCV and dlib, for face detection and alignment. It has facial region detection through HOG features, while the landmark-based alignment approach makes face orientation standardization to suppress varying angles and expressions of faces.
+
